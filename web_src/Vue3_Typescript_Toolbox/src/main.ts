@@ -13,7 +13,6 @@ async function main(){
     //@ts-ignore
     // console.log(App.components.MyComponents == App.components.HelloWorld.components.MyComponents)
     // 同一个对象不同data
-    console.log("??????????")
     let vueObjBox = new VueObjBox()
     vueObjBox.injectVueApp(App)
     await vueObjBox.start()
