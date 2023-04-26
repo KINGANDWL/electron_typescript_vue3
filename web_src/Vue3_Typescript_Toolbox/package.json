@@ -9,7 +9,7 @@
   "dependencies": {
     "echarts": "^5.4.2",
     "element-plus": "^2.3.4",
-    "objbox": "^1.3.14",
+    "objbox": "^1.3.16",
     "vue": "^3.2.13",
     "zrender": "^5.4.3"
   },
