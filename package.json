@@ -46,9 +46,8 @@
 			"node_modules/**/*",
 			"buildElectron/**/*",
 			"web_src/staticHtml/**/*",
-			"web_src/ElectronApi/**/*",
-			"web_src/Vue3_Typescript_Toolbox/buildElectron/**/*",
-			"web_src/Vue3_Typescript_Toolbox/buildVue/**/*"
+			"web_src/Vue3_Typescript_Toolbox/buildVue/**/*",
+			"web_src/Vue3_Typescript_Toolbox/node_modules/**/*"
 		],
 		"directories": {
 			"output": "buildApp/app",
@@ -64,7 +63,7 @@
 			"perMachine": true,
 			"createDesktopShortcut": true,
 			"createStartMenuShortcut": false,
-			"license": "./web_src/staticHtml/page/license.html"
+			"license": "./buildApp/buildResources/license.html"
 		},
 		"win": {
 			"icon": "./buildApp/buildResources/icons/winLogo.ico",

@@ -12,6 +12,8 @@ export class StartBrowserWindow extends BrowserWindow implements TemplateHandler
 
 		//加载与渲染页面
 		this.loadFile(config.winPage);
+
+		// this.webContents.openDevTools()
 	}
 
 	// created?: () => void;

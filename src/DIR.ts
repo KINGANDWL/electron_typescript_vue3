@@ -15,9 +15,9 @@ export class DIR{
     static web_src_ElectronApi:string = path.join(rootDir, '/buildElectron/web_src/ElectronApi');
     static web_src_staticHtml:string = path.join(rootDir, '/buildElectron/web_src/staticHtml');
     static web_src_Vue3:string = path.join(rootDir, '/buildElectron/web_src/Vue3_Typescript_Toolbox');
-    static web_src_staticHtml_JavaScript:string = path.join(rootDir, '/web_src/staticHtml/JavaScript/');
     static web_src_staticHtml_page:string = path.join(rootDir, '/web_src/staticHtml/page/');
     static web_src_staticHtml_resource:string = path.join(rootDir, '/web_src/staticHtml/resource/');
+    static web_src_staticHtml_JavaScript:string = path.join(rootDir, '/web_src/staticHtml/resource/JavaScript/');
 
     static web_src_Vue3_buildVue:string = path.join(rootDir, '/web_src/Vue3_Typescript_Toolbox/buildVue/');
     static RuntimeData:string = path.join(rootDir, '/buildElectron/runtimeData/');
