@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Hello World!</title>
+	<!-- 禁用eval函数 -->
+	<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" /> -->
+	<!-- 允许使用eval -->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval'; script-src 'self' 'unsafe-eval'" />
+	<!-- 禁用内联JavaScript -->
+	<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+</head>
+
+<body>
+	<div id="app">
+
+	</div>
+</body>
+
+<!-- You can also require other files to run in this process -->
+<script src="../JavaScript/vue/vue-3_2_37.global.prod.js"></script>
+<script src="../JavaScript/App.js"></script>
+
+</html>
