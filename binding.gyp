@@ -4,12 +4,13 @@
         "cflags!": [ "-fno-exceptions" ],
         "cflags_cc!": [ "-fno-exceptions" ],
         "sources": [
-            "src/addons/Hello.cpp"
+            "addons/src/Hello.cpp"
         ],
         "include_dirs": [
             "<!@(node -p \"require('node-addon-api').include\")"
         ],
-        "libraries": [],
+        "library_dirs": [ ],
+        "libraries": [ ],
         "dependencies": [
             "<!(node -p \"require('node-addon-api').gyp\")"
         ],

@@ -1,0 +1,1 @@
+这里存放着备用的gyp build所需要的库，git不方便上传，可以通过 gyp rebuild 命令下载后去缓存文件夹取(C:\Users\用户名\AppData\Local\node-gyp\Cache)
